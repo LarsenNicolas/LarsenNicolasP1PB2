@@ -52,4 +52,7 @@ public class Estudiante {
         return this.librosEnPosesion.size();
     }
 
+    public void quitarLibroDePosesion() {
+        this.librosEnPosesion.remove(0);
+    }
 }
